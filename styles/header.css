@@ -21,6 +21,6 @@
     color: var(--cor-fonte-primaria);
 }
 
-.lista-menu__link:hover {
+.lista-menu__link:hover, .logo:hover{
     color: var(--cor-fonte-terciaria);
 }
