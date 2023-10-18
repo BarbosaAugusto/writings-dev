@@ -1,6 +1,7 @@
-@import url("./styles/header.css");
-@import url("./styles/banner.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
 @import url("styles/categories.css");
+@import url("styles/posts.css");
 
 
 :root {
@@ -8,8 +9,10 @@
     --cor-fonte-primaria: #fff;
     --cor-fonte-secundaria: #909090;
     --cor-fonte-terciaria: #FF7575;
+    --cor-fonte-quarternaria: #0F1217;
     --fonte-primaria: 'Poppins', sans-serif;
     --fonte-secundaria: 'Recursive', sans-serif;
+
 }
 
 body {

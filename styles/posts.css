@@ -1,0 +1,39 @@
+.posts {
+    margin: 4rem 15rem; 
+}
+.card {
+    background: white;
+    border: 1px solid #252930;
+    border-radius: 1.5rem;
+    width: 30%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.card__titulo {
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--cor-fonte-quarternaria);
+    text-align: left;
+    margin: 2rem 1rem 1rem;
+}
+
+.card__texto {
+    color: var(--cor-fonte-quarternaria);
+    text-align: left;
+    margin: 0 1rem 1.5rem;
+}
+
+.card__informacoes {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card__informacoes {
+    color: var(--cor-fonte-quarternaria);
+}
+
+.dot {
+    color: var(--cor-fonte-quarternaria);
+}
