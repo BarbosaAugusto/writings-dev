@@ -1,0 +1,18 @@
+@import url("./styles/header.css");
+
+:root {
+    --background-color: #232830;
+    --cor-fonte-primaria: #fff;
+    --cor-fonte-secundaria: #909090;
+    --cor-fonte-terciaria: #FF7575;
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Recursive', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--cor-fonte-primaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 16px
+}
