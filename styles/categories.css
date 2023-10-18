@@ -1,0 +1,11 @@
+.lista-categories {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.lista-categories__link {
+    color: var(--cor-fonte-secundaria);
+    font-size: 27px;
+    text-decoration: none;
+}
