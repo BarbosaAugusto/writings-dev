@@ -1,5 +1,8 @@
 .posts {
     margin: 4rem 15rem; 
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 .card {
     background: white;
@@ -36,4 +39,22 @@
 
 .dot {
     color: var(--cor-fonte-quarternaria);
+}
+
+.menu-paginas {
+    display: flex;
+    margin: 5rem auto;
+    gap: 1rem;
+}
+
+.menu-paginas__link {
+    color: var(--cor-fonte-secundaria);
+    font-style: italic;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+}
+
+.menu-paginas__link:hover {
+    color: var(--cor-fonte-terciaria);
 }
